@@ -1,0 +1,49 @@
+{
+  "meta": {"date": "2026-10-17", "version": "test"},
+  "data": {
+    "baseSetSize": 2,
+    "totalSetSize": 2,
+    "code": "TST",
+    "name": "Test Set",
+    "releaseDate": "2026-01-01",
+    "type": "expansion",
+    "cards": [
+      {
+        "uuid": "00000000-0000-0000-0000-000000000001",
+        "name": "Test Bolt",
+        "number": "1",
+        "rarity": "common",
+        "language": "English",
+        "manaCost": "{R}",
+        "manaValue": 1,
+        "type": "Instant",
+        "text": "Test Bolt deals 3 damage to any target.",
+        "colorIdentity": ["R"],
+        "colors": ["R"],
+        "finishes": ["nonfoil", "foil"],
+        "skuIds": {"nonfoil": "sku-nf-1", "foil": "sku-f-1"},
+        "identifiers": {"scryfallId": "test-scryfall-1"},
+        "borderColor": "black",
+        "frameVersion": "2015"
+      },
+      {
+        "uuid": "00000000-0000-0000-0000-000000000002",
+        "name": "Test Elf",
+        "number": "2a",
+        "rarity": "uncommon",
+        "language": "English",
+        "manaCost": "{1}{G}",
+        "manaValue": 2,
+        "type": "Creature — Elf",
+        "text": "{T}: Add {G}.",
+        "power": "1",
+        "toughness": "1",
+        "colorIdentity": ["G"],
+        "colors": ["G"],
+        "finishes": ["nonfoil"],
+        "skuIds": {"nonfoil": "sku-nf-2"},
+        "identifiers": {}
+      }
+    ]
+  }
+}

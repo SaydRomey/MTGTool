@@ -1,0 +1,9 @@
+build/
+data/
+*.o
+*.d
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.tmp
+*.log
